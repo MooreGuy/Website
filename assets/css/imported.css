@@ -1,0 +1,38 @@
+@media (min-width: 768px)
+{
+	.container
+	{
+		max-width: 730px;
+	}
+}
+
+/* Center the header text. */
+.jumbotron
+{
+	text-align: center;
+}
+
+
+/***************************
+	Navbar fixes
+***************************/
+
+.navbar-header
+{
+	float: left
+}
+
+li
+{
+	float: left;
+}
+
+footer
+{
+	text-align: center;
+}
+
+i
+{
+	margin-right: 10px;
+}

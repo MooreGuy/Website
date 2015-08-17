@@ -1,0 +1,7 @@
+{{define "BlogArticle"}}
+<h3>{{.Title}}{{if .Draft}}(Draft){{end}}</h3>
+<h5>{{.Author}}</h5>
+<p>{{.Body}}</p>
+{{end}}
+
+{{template "BlogArticle" .}}
